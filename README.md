@@ -1,6 +1,6 @@
 # Thesk
 
-Thesk é uma aplicação web simples para gerenciamento de tarefas, desenvolvida com HTML, CSS e JavaScript.
+Thesk é uma aplicação web simples para gerenciamento de tarefas, desenvolvida com **HTML**, **CSS** e **JavaScript**.
 
 O projeto foi criado com o objetivo de praticar manipulação do DOM, eventos em JavaScript, organização de código front-end e armazenamento de dados no navegador usando `localStorage`.
 
@@ -17,6 +17,7 @@ Este projeto faz parte da minha evolução como desenvolvedor, servindo como pr�
 * JavaScript
 * LocalStorage
 * Git e GitHub
+* Netlify
 
 ## Funcionalidades
 
@@ -29,9 +30,7 @@ Este projeto faz parte da minha evolução como desenvolvedor, servindo como pr�
 
 ## Demonstração
 
-```md
 🔗 Acesse o projeto: https://hilarious-dango-e4ff26.netlify.app/
-```
 
 ## Estrutura do projeto
 
@@ -44,21 +43,23 @@ thesk/
 └── README.md
 ```
 
+> A estrutura pode variar conforme a organização atual dos arquivos do projeto.
+
 ## Como executar o projeto
 
-1. Clone o repositório:
+Clone o repositório:
 
 ```bash
 git clone https://github.com/luancabral1/thesk.git
 ```
 
-2. Acesse a pasta do projeto:
+Acesse a pasta do projeto:
 
 ```bash
 cd thesk
 ```
 
-3. Abra o arquivo `index.html` no navegador.
+Abra o arquivo `index.html` no navegador.
 
 Também é possível usar a extensão **Live Server** no VS Code para executar o projeto localmente.
 
@@ -73,6 +74,7 @@ Durante o desenvolvimento do Thesk, pratiquei conceitos importantes de front-end
 * Criação e remoção dinâmica de elementos
 * Armazenamento de dados no navegador com `localStorage`
 * Organização básica de arquivos em um projeto web
+* Publicação de projeto front-end com Netlify
 
 ## Melhorias futuras
 
@@ -83,7 +85,8 @@ Algumas melhorias que podem ser adicionadas futuramente:
 * Categorias ou prioridades
 * Modo escuro
 * Melhorias de responsividade
-* Deploy com GitHub Pages, Vercel ou Netlify
+* Melhor organização do código JavaScript
+* Adição de mensagens de feedback para o usuário
 
 ## Status do projeto
 
