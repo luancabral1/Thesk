@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <nav class="navegacao">
+      <a href="index.html" class="logo-texto">Thesk</a>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="tarefas.html">Tarefas</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="detalhe.html">Detalhe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <section class="cabecalho-pagina">
+      <h1>Nova tarefa</h1>
+      <p>Cria ou edita tarefas do teu sistema.</p>
+    </section>
+
+    <section class="card">
+      <h2>Formulário de tarefa</h2>
+
+      <form class="form-tarefa">
+        <div class="campo">
+          <label for="titulo">Título</label>
+          <input type="text" id="titulo" class="input-titulo" placeholder="Ex: Estudar as 18:00">
+        </div>
+
+        <div class="campo">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="input-categoria">
+            <option value="">Seleciona uma categoria</option>
+            <option value="Estudo">Estudo</option>
+            <option value="Trabalho">Trabalho</option>
+            <option value="Pessoal">Pessoal</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="data">Data</label>
+          <input type="date" id="data" class="input-data" min="2026-04-23" max="2027-01-01">
+        </div>
+
+        <div class="item-acoes">
+          <button type="submit" class="botao">Guardar tarefa</button>
+          <a href="dashboard.html" class="botao-secundario">Ver dashboard</a>
+        </div>
+
+        <p class="mensagem-formulario"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Thesk - Criação de tarefas</p>
+  </footer>
+
+  <script src="js/tarefas.js"></script>
+</body>
+</html>

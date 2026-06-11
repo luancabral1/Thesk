@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <nav class="navegacao">
+      <a href="index.html" class="logo-texto">Thesk</a>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="tarefas.html">Tarefas</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="detalhe.html">Detalhe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <section class="cabecalho-pagina">
+      <h1>Dashboard de Tarefas</h1>
+      <p>Consulta, filtra e acompanha as tarefas criadas.</p>
+    </section>
+
+    <section class="card">
+      <div class="barra-filtros">
+        <div class="campo">
+          <label for="filtro-estado">Estado</label>
+          <select id="filtro-estado" class="filtro-estado">
+            <option value="todas">Todas</option>
+            <option value="pendentes">Pendentes</option>
+            <option value="concluidas">Concluídas</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="filtro-categoria">Categoria</label>
+          <select id="filtro-categoria" class="filtro-categoria">
+            <option value="todas">Todas</option>
+            <option value="Estudo">Estudo</option>
+            <option value="Trabalho">Trabalho</option>
+            <option value="Pessoal">Pessoal</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="contador-tarefas">Total: 0 tarefas</p>
+      <p class="estado-vazio">Ainda não existem tarefas.</p>
+
+      <ul class="lista-tarefas"></ul>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Thesk - Dashboard</p>
+  </footer>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
